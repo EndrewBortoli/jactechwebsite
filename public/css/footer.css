@@ -9,6 +9,7 @@ footer{
 }
 
 .footerContainer{
+    display: flex;
     width: 100%;
     padding: 70px 30px 20px;
 }
@@ -28,12 +29,12 @@ footer{
 
 .socialIcons a i{
     font-size: 2rem;
-    color: black;
+    color: #0B6121;
     opacity: 0.9;
 }
 
 .socialIcons a:hover{
-    background-color: #111;
+    background-color: #0B6121;
     transition: 0.5s;
 }
 
@@ -81,6 +82,27 @@ footer{
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+}
+
+.footerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footerLogo img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footerDiv1{
+    width: 70%;
+}
+
+.footerDiv2{
+    width: 30%;
 }
 
 @media (max-width: 800px) {
