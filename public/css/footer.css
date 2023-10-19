@@ -105,7 +105,7 @@ footer{
     width: 30%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
     .footerNav ul{
         flex-direction: column;
     }
@@ -115,4 +115,17 @@ footer{
         text-align: center;
         margin: 10px;
     }
+     .footerLogo{
+        display: none;
+        transition: 1s;
+    }
+
+    .footerDiv1{
+    width: 100%;
+    transition: 1s;
+}
+
+.footerDiv2{
+    display: none;
+}
 }
