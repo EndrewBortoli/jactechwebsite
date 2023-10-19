@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Home - JacTech</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -23,7 +23,7 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo"><img src="https://i.ibb.co/XsJshMF/jactech-escrita.png" alt=""></label>
+      <label class="logo"><a href=""><img src="../Image/jactech.svg" alt=""></a></label>
       <ul>
         <li><a href="#" class="hover-underline-animation">HOME</a></li>
         <li><a href="#" class="hover-underline-animation">ABOUT</a></li>
@@ -43,17 +43,12 @@
 <!-- Inicio do body -->
         <section id="main-banner">
             <div class="left">
-                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Etiam eu turpis molestie, dictum est a, mattis tellus.
-                      Sed dignissim, metus nec fringilla accumsan, risus sem
-                       sollicitudin lacus, ut interdum tellus elit sed risus.
-                        Maecenas eget condimentum velit, sit amet feugiat lectus.
-                         Class aptent taciti sociosqu ad litora torquent per conubia
-                       nostra, per inceptos himenaeos. Praesent auctor purus 
-                       luctus enim egestas, ac scelerisque ante pulvinar.
-                        Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, 
-                        eu tempor urna. Curabitur vel bibendum lorem. Morbi
-                    convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+                <p>A Jactech, é a primeira equipe da cidade de Jacarei-SP na participação
+                     da FIRST Robotics Competition! Participar dessa competição é um marco
+                    importante para a Jactech, que acredita que a robótica e a tecnologia
+                    têm o potencial de transformar positivamente a sociedade. Nossa primeira
+                    participação oficial pela FIRST será em 2024, estamos extremamente 
+                    ansiosos e conscientes da importância de nossa estreia!</p>
             </div>
             <div class="right">
                 <img src="https://i.ibb.co/T02DNZs/jacare-branco.png" alt="">
@@ -70,9 +65,8 @@
                 <img src="https://i.ibb.co/98ztnB1/team-photo-1.png" alt="">
             </div>
             <div class="right">
-               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cumque 
-                voluptatem pariatur odio! In recusandae nostrum amet dolor dolorem
-                 magni est modi, omnis quasi, non officiis fuga, vel eaque inventore.</p>
+               <p>A competição enfatiza a colaboração, no qual os participantes
+                 aprendem a resolver problemas, tarefas e comunicação.</p>
             </div>
         </section>
 
@@ -81,17 +75,16 @@
                 <img src="https://i.ibb.co/WDVmcfn/first.png" alt="">
             </div>
             <div class="right">
-                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Etiam eu turpis molestie, dictum est a, mattis tellus.
-                    Sed dignissim, metus nec fringilla accumsan, risus sem 
-                  sollicitudin lacus, ut interdum tellus elit sed risus.
-                  Maecenas eget condimentum velit, sit amet feugiat lectus.
-                Class aptent taciti sociosqu ad litora torquent per
-                 conubia nostra, per inceptos himenaeos. Praesent 
-             auctor purus luctus enim egestas, ac scelerisque ante
-              pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus
-              nisl, eu tempor urna. Curabitur vel bibendum lorem.
-             Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+                <p>A FIRST (For Inspiration and Recognition of Science and Technology)
+                     é uma renomada organização internacional que se dedica a inspirar
+                      jovens a se interessarem por ciência, tecnologia, engenharia,
+                       artes e matemática, conhecidas como as disciplinas STEAM. A FIRST
+                       promove uma série de programas educacionais e competições de
+                      robótica que desafiam estudantes a aplicar seus conhecimentos em
+                      projetos práticos, como a construção de robôs. Os programas da
+                      organização visam não apenas o desenvolvimento de habilidades técnicas,
+                     mas também a promoção de valores como cooperação, trabalho em equipe,
+                      liderança e responsabilidade.</p>
             </div>
         </section>
 <!-- Fim do body -->

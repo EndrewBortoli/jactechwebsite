@@ -20,12 +20,13 @@
     height: 30rem;
     display: flex;
     align-items: center;
-    padding: 40px 20px 40px 40px;
+    padding: 40px 15px 40px 55px;
     justify-content: center;
     text-align: justify;
 }
 
-#main-banner > div.left > p{
+#main-banner > div.left > p {
+    font-size: 18px;
     color: white;
 }
 
@@ -52,7 +53,7 @@
 
 #season > div.left{
     width: 60%;
-    height: 30rem;
+    height: fit-content;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -61,20 +62,21 @@
 
 #season > div.right{
     width: 40%;
-    height: 30rem;
+    height: 25rem;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 40px 40px 40px 20px;
+    padding: 40px 50px 40px 10px;
     text-align: justify;
 }
 
 #season > div.right > p{
     color: white;
+    font-size: 18px;
 }
 
 #season > div.left > img{
-    width: fit-content;
+    width: 70vw;
 }
 
 #first{
@@ -84,7 +86,7 @@
     flex-direction: row;
 }
 
-#first > div.left{
+#first > div.left {
     width: 50%;
     height: 30rem;
     display: flex;
@@ -98,7 +100,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 40px 40px 40px 20px;
+    padding: 40px 55px 40px 10px;
     text-align: justify;
 }
 
@@ -106,26 +108,98 @@
     width: 50%;
 }
 
-@media only screen and (max-width: 717px) {
+#first > div.right > p{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1050px) {
 
   #main-banner{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
-  #sesi-senai{
+  #sesi-senai {
     display: flex;
+    gap: 2rem;
     flex-direction: column;
-  }
+}
 
   #season{
     display: flex;
     flex-direction: column;
   }
 
+  #season > div.left > img {
+    width: 90%;
+}
+
+  #season > div.right {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px 40px 50px;
+    text-align: justify;
+}
+
+#season > div.left {
+    width: 100%;
+    height: fit-content;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   #first{
     display: flex;
     flex-direction: column;
   }
+
+  #main-banner > div.left{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px 40px 40px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#first > div.left > img {
+    width: 40%;
+}
+
+#first > div.left {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-banner > div.left > p{
+    color: white;
+}
+
+#main-banner > div.right{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+#first > div.right {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px 40px 40px 40px;
+    text-align: justify;
+}
     
 }
