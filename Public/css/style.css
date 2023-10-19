@@ -17,10 +17,10 @@
 
 #main-banner > div.left{
     width: 50%;
-    height: 500px;
+    height: 30rem;
     display: flex;
     align-items: center;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 20px 40px 40px;
     justify-content: center;
     text-align: justify;
 }
@@ -40,5 +40,68 @@
 #main-banner > div.right > img{
     width: 60%;
     margin: 40px;
+}
+
+#season{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #0B6121;
+}
+
+#season > div.left{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#season > div.right{
+    width: 40%;
+    height: 30rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px 40px 40px 20px;
+    text-align: justify;
+}
+
+#season > div.right > p{
+    color: white;
+}
+
+#season > div.left > img{
+    width: 90%;
+}
+
+#first{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#first > div.left{
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first > div.right{
+    width: 50%;
+    height: 30rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px 40px 40px 20px;
+    text-align: justify;
+}
+
+#first > div.left > img{
+    width: 50%;
 }
 
