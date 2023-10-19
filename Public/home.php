@@ -49,7 +49,6 @@
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-tiktok"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <br><br>
         <div class="footerNav">
