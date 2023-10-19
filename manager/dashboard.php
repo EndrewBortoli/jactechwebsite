@@ -26,7 +26,7 @@
           <span class="material-icons-outlined">menu</span>
         </div>
         <div class="header-left">
-                  <a href="../painel/logout.php" style="text-decoration: none;">Sair</a>
+                  <a href="../panel/logout.php" style="text-decoration: none;">Sair</a>
         </div>
         <div class="header-right">
           <h2 style="font-size: 14px;">Olá, bem vindo de volta</h2>
@@ -50,7 +50,7 @@
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="livros.php">
+            <a href="usuarios.php">
               <span class="material-icons-outlined">person</span> Usuários
             </a>
           </li>

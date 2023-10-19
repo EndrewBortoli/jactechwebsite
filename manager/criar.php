@@ -1,18 +1,41 @@
+<!-- editar.php -->
+
 <?php
-// Conexão com o banco de dados
-$servername = "localhost";
-$username = "root";
-$password = '';
-$dbname = "endrew_18";
+if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET["id"])) {
+  } elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Processar o formulário de criação de um novo usuário
+    if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["senha"]) && isset($_POST["nivel"])) {
+        // Conexão com o banco de dados
+        $servername = "localhost";
+        $username = "root";
+        $password = '';
+        $dbname = "bortoli_18";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+        $conn = new mysqli($servername, $username, $password, $dbname);
 
-if ($conn->connect_error) {
-    die("Erro na conexão com o banco de dados: " . $conn->connect_error);
+        if ($conn->connect_error) {
+            die("Erro na conexão com o banco de dados: " . $conn->connect_error);
+        }
+
+        $nome = $_POST["nome"];
+        $email = $_POST["email"];
+        $senha = $_POST["senha"];
+        $nivel = $_POST["nivel"];
+
+        // Consulta SQL para inserir um novo usuário
+        $sql = "INSERT INTO usuarios (nome, email, senha, nivel) VALUES ('$nome', '$email', '$senha', '$nivel')";
+
+        if ($conn->query($sql) === TRUE) {
+            echo "Novo usuário criado com sucesso.";
+        } else {
+            echo "Erro ao criar novo usuário: " . $conn->error;
+        }
+
+        $conn->close();
+    } else {
+        echo "Campos obrigatórios não foram preenchidos.";
+    }
 }
-
-// Feche a conexão com o banco de dados
-$conn->close();
 ?>
 
 
@@ -31,6 +54,33 @@ $conn->close();
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="dashboard.css">
+
+        <style>
+        body > div > main > div{
+            display: flex;
+            flex-direction: column;
+        }
+
+        body > div > main > div > form > div{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        form{
+            gap: 15px;
+        }
+
+        body > div > main > div > form > div > input{
+            height: 45px;
+            border-radius: 15px;
+            border: none;
+        }
+
+        body > div > main > div > form > div > input[type=submit]:nth-child(8){
+            background-color: blue;
+            color: white;
+        }
+    </style>
   </head>
   <body>
     <div class="grid-container">
@@ -41,7 +91,7 @@ $conn->close();
           <span class="material-icons-outlined">menu</span>
         </div>
         <div class="header-left">
-                  <a href="../painel/logout.php" style="text-decoration: none;">Sair</a>
+                  <a href="../panel/logout.php" style="text-decoration: none;">Sair</a>
         </div>
         <div class="header-right">
           <h2 style="font-size: 14px;">Olá, bem vindo de volta</h2>
@@ -65,7 +115,7 @@ $conn->close();
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="livros.php">
+            <a href="usuarios.php">
               <span class="material-icons-outlined">person</span> Usuários
             </a>
           </li>
@@ -104,42 +154,55 @@ $conn->close();
       <!-- End Sidebar -->
 
       <!-- Main -->
-      <main class="main-container">
+<main class="main-container">
         <div class="main-title">
           <p class="font-weight-bold">DASHBOARD</p>
-        </div>
+          <h1 style="color: black;">Criar novo usuário</h1>
 
-        <div class="main-cards">
+          <a href="../usuarios.php">Voltar</a>
+          <br><br>
+    <form method="POST" action="processar_criacao.php">
+    <div class="form-content">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite o nome:" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" placeholder="Digite o email" required>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" placeholder="Digite a senha" required>
+        <br>
+        <label for="nivel">Nível:</label>
+        <input type="text" name="nivel" placeholder="Digite o nível" >
+        <br>
+        <!-- Adicione mais campos conforme necessário -->
 
-          <div class="card">
-            <div class="card-inner">
-              <p class="text-primary">LIVROS INSTALADOS</p>
-              <span class="material-icons-outlined text-green">download</span>
-            </div>
-            <span class="text-primary font-weight-bold">0</span>
-          </div>
-        </div>
-
-        <div class="charts">
-          <div class="charts-card">
-            <p class="chart-title">Top 5 Products</p>
-            <div id="bar-chart"></div>
-          </div>
-
-          <div class="charts-card">
-            <p class="chart-title">Purchase and Sales Orders</p>
-            <div id="area-chart"></div>
-          </div>
-        </div>
-      </main>
-      <!-- End Main -->
-
+        <input type="submit" value="Criar Novo Usuário">
+        <br>
+        <a href="usuarios.php" style="text-decoration: none; color: black;">Voltar</a>
     </div>
+</form>
+
+     
+</main>
 
     <!-- Scripts -->
     <!-- ApexCharts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
     <!-- Custom JS -->
     <script src="dashboard.js"></script>
+
+    <script>
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
+
   </body>
 </html>

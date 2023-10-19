@@ -42,7 +42,7 @@
     <div class="login">
 	<!-- <img src="img/Banner.png" alt=""> -->
 	<div class="form" style="border-radius: 20px; z-index: 0;">
-		 <form class="registro" method="post" action="autenticar.php"> <!--class="registro" -->
+		 <form class="registro" method="post" action="authenticate.php"> <!--class="registro" -->
 		 <h1 style="font-family: 'Montserrat';">Login</h1>
 
 		 <br><br>
@@ -53,7 +53,7 @@
 
 			<div class="container" style="font-family: 'Montserrat'; font-size: 12px; margin-top: 10px; ">
 			<br>
-            <span class="psw">Esqueceu senha? <a class="link1" href="esqueceusenha.php" style="font-weight: bolder; cursor:pointer;">Recupere aqui</a></span>
+            <span class="psw">Esqueceu senha? <a class="link1" href="forgetpassword.php" style="font-weight: bolder; cursor:pointer;">Recupere aqui</a></span>
         </div> 
 
 		</form>

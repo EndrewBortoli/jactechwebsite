@@ -1,19 +1,4 @@
-<?php
-// Conexão com o banco de dados
-$servername = "localhost";
-$username = "root";
-$password = '';
-$dbname = "endrew_18";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Erro na conexão com o banco de dados: " . $conn->connect_error);
-}
-
-// Feche a conexão com o banco de dados
-$conn->close();
-?>
 
 
 <!DOCTYPE html>
@@ -29,8 +14,11 @@ $conn->close();
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="table.css">
   </head>
   <body>
     <div class="grid-container">
@@ -41,7 +29,7 @@ $conn->close();
           <span class="material-icons-outlined">menu</span>
         </div>
         <div class="header-left">
-                  <a href="../painel/logout.php" style="text-decoration: none;">Sair</a>
+                  <a href="../panel/logout.php" style="text-decoration: none;">Sair</a>
         </div>
         <div class="header-right">
           <h2 style="font-size: 14px;">Olá, bem vindo de volta</h2>
@@ -65,7 +53,7 @@ $conn->close();
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="livros.php">
+            <a href="usuarios.php">
               <span class="material-icons-outlined">person</span> Usuários
             </a>
           </li>
@@ -104,33 +92,55 @@ $conn->close();
       <!-- End Sidebar -->
 
       <!-- Main -->
-      <main class="main-container">
-        <div class="main-title">
-          <p class="font-weight-bold">DASHBOARD</p>
-        </div>
+      <main class="main-container" style="display:flex; flex-direction:column;">
 
-        <div class="main-cards">
+      <a href="criar.php">Criar novo usuário</a>
+<?php
 
-          <div class="card">
-            <div class="card-inner">
-              <p class="text-primary">LIVROS INSTALADOS</p>
-              <span class="material-icons-outlined text-green">download</span>
-            </div>
-            <span class="text-primary font-weight-bold">0</span>
-          </div>
-        </div>
+    // Conexão com o banco de dados
+    $servername = "localhost";
+    $username = "root";
+    $password = '';
+    $dbname = "bortoli_18";
 
-        <div class="charts">
-          <div class="charts-card">
-            <p class="chart-title">Top 5 Products</p>
-            <div id="bar-chart"></div>
-          </div>
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-          <div class="charts-card">
-            <p class="chart-title">Purchase and Sales Orders</p>
-            <div id="area-chart"></div>
-          </div>
-        </div>
+    if ($conn->connect_error) {
+        die("Erro na conexão com o banco de dados: " . $conn->connect_error);
+    }
+
+    // Consulta SQL para selecionar todos os registros da tabela desejada
+    $sql = "SELECT * FROM usuarios";
+    $result = $conn->query($sql);
+
+   if ($result->num_rows > 0) {
+          echo '<table class="styled-table">';
+          echo '<thead><tr><th>ID</th><th>Nome</th><th>Email</th><th>Senha</th><th>Nível</th><th>Ações</th></tr></thead>';
+          echo '<tbody>';
+          while ($row = $result->fetch_assoc()) {
+            echo '<tr>';
+            echo '<td>' . $row['id'] . '</td>';
+            echo '<td>' . $row['nome'] . '</td>';
+            echo '<td>' . $row['email'] . '</td>';
+            echo '<td>' . $row['senha'] . '</td>';
+            echo '<td>' . $row['nivel'] . '</td>';
+            // Adicione links de edição e exclusão
+            echo '<td><a href="editar.php?id=' . $row['id'] . '"><span class="material-symbols-outlined">
+edit
+</span></a>  <a href="excluir.php?id=' . $row['id'] . '"><span class="material-symbols-outlined">
+delete
+</span></a></td>';
+            echo '</tr>';
+          }
+          echo '</tbody>';
+          echo '</table>';
+        } else {
+          echo 'Nenhum resultado encontrado.';
+        }
+
+    $conn->close();
+?>
+
       </main>
       <!-- End Main -->
 
