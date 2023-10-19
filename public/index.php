@@ -14,7 +14,8 @@
 
     <link rel="stylesheet" href="../public/css/footer.css">
     <link rel="stylesheet" href="../public/css/header.css">
-
+    <link rel="stylesheet" href="../public/css/style.css">
+    
 </head>
 <body>
     <nav>
@@ -38,8 +39,41 @@
   	        </div>
       </ul>
     </nav>
-    <section></section>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- Inicio do body -->
+        <section id="main-banner">
+            <div class="left">
+                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Etiam eu turpis molestie, dictum est a, mattis tellus.
+                      Sed dignissim, metus nec fringilla accumsan, risus sem
+                       sollicitudin lacus, ut interdum tellus elit sed risus.
+                        Maecenas eget condimentum velit, sit amet feugiat lectus.
+                         Class aptent taciti sociosqu ad litora torquent per conubia
+                       nostra, per inceptos himenaeos. Praesent auctor purus 
+                       luctus enim egestas, ac scelerisque ante pulvinar.
+                        Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, 
+                        eu tempor urna. Curabitur vel bibendum lorem. Morbi
+                    convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+            </div>
+            <div class="right">
+                <img src="https://i.ibb.co/T02DNZs/jacare-branco.png" alt="">
+            </div>
+        </section>
+
+        <section id="sesi-senai">
+            <img src="https://i.ibb.co/q5sTTM9/sesi.png" alt="">
+            <img src="https://i.ibb.co/t4Xvcn0/senai.png" alt="">
+        </section>
+
+        <section id="season">
+            <div class="left"></div>
+            <div class="right"></div>
+        </section>
+
+        <section id="first">
+            <div class="left"></div>
+            <div class="right"></div>
+        </section>
+<!-- Fim do body -->
     <footer>
         <div class="footerContainer">
             <div class="footerDiv1">
