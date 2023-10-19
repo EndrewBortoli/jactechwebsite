@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="../public/css/footer.css">
     <link rel="stylesheet" href="../public/css/header.css">
+    <link rel="stylesheet" href="../public/css/members.css">
 
 </head>
 <body>
@@ -38,8 +39,27 @@
   	        </div>
       </ul>
     </nav>
-    <section></section>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="login">
+	<!-- <img src="img/Banner.png" alt=""> -->
+	<div class="form" style="border-radius: 20px; z-index: 0;">
+		 <form class="registro" method="post" action="autenticar.php"> <!--class="registro" -->
+		 <h1 style="font-family: 'Montserrat';">Login</h1>
+
+		 <br><br>
+
+			<input type="email" name="usuario" placeholder="Coloque seu email:">
+			<input type="password" name="senha" placeholder="Digite sua senha:">
+			<button action="submit">Login</button>
+
+			<div class="container" style="font-family: 'Montserrat'; font-size: 12px; margin-top: 10px; ">
+			<br>
+            <span class="psw">Esqueceu senha? <a class="link1" href="esqueceusenha.php" style="font-weight: bolder; cursor:pointer;">Recupere aqui</a></span>
+        </div> 
+
+		</form>
+	</div>
+</div>
+
     <footer>
         <div class="footerContainer">
             <div class="footerDiv1">
