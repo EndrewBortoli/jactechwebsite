@@ -18,7 +18,7 @@
     
 </head>
 <body>
-    <nav>
+    <nav id="menu">
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
@@ -39,6 +39,7 @@
   	        </div>
       </ul>
     </nav>
+    <br><br><br><br><br><br>
 <!-- Inicio do body -->
         <section id="main-banner">
             <div class="left">
@@ -105,7 +106,7 @@
             <a href=""><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <br><br>
-        <div class="footerNav">
+        <div id="footertext">
             <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
