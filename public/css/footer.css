@@ -11,6 +11,7 @@ footer{
 .footerContainer{
     display: flex;
     width: 100%;
+    display: flex;
     padding: 70px 30px 20px;
 }
 
@@ -43,17 +44,17 @@ footer{
     transition: 0.5s;
 }
 
-.footerNav{
+#footertext{
     margin: 30px 0;
 }
 
-.footerNav ul{
+#footertext ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-.footerNav ul li a{
+#footertext ul li a{
     color: white;
     margin: 20px;
     text-decoration: none;
@@ -62,7 +63,7 @@ footer{
     transition: 0.5s;
 }
 
-.footerNav ul li a:hover{
+#footertext ul li a:hover{
     opacity: 1;
 }
 
@@ -106,11 +107,11 @@ footer{
 }
 
 @media (max-width: 1050px) {
-    .footerNav ul{
+    #footertext ul{
         flex-direction: column;
     }
 
-    .footerNav ul li{
+    #footertext ul li{
         width: 100%;
         text-align: center;
         margin: 10px;

@@ -12,9 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../public/css/footer.css">
-    <link rel="stylesheet" href="../public/css/header.css">
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../../public/css/footer.css">
+    <link rel="stylesheet" href="../../public/css/header.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
     
 </head>
 <body>
@@ -31,12 +31,13 @@
         <li><a href="#" class="hover-underline-animation">SPONSORSHIP</a></li>
         <li><a href="#" class="hover-underline-animation">MENTORS</a></li>
         <li><a href="#" class="hover-underline-animation">MEMBERS</a></li>
-            <div class="switch">
-                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                <label for="language-toggle"></label>
-                <span class="on">PT</span>
-                <span class="off">EN</span>
-  	        </div>
+        <div class="switch">
+        <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onclick="openWindow()">
+        <label for="language-toggle"></label>
+        <span class="on">PT</span>
+        <span class="off">EN</span>
+</div>
+
       </ul>
     </nav>
     <br><br><br><br><br><br>
@@ -120,5 +121,8 @@
             <p>Copyright &copy;2023; Design by <span class="designer">JacTech</span></p>
         </div>
     </footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
