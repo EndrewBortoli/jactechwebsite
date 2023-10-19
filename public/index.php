@@ -43,12 +43,14 @@
 <!-- Inicio do body -->
         <section id="main-banner">
             <div class="left">
-                <p>A Jactech, é a primeira equipe da cidade de Jacarei-SP na participação
-                     da FIRST Robotics Competition! Participar dessa competição é um marco
-                    importante para a Jactech, que acredita que a robótica e a tecnologia
-                    têm o potencial de transformar positivamente a sociedade. Nossa primeira
-                    participação oficial pela FIRST será em 2024, estamos extremamente 
-                    ansiosos e conscientes da importância de nossa estreia!</p>
+                <p> Jactech is the first highschool robotics team 
+                    in the city of Jacareí to take part in the First 
+                    Robotics Competition, we will develop an evironment 
+                    that combines technology, science and competition 
+                    through young students. Jachtech aims to bring those 
+                    values and mission in a way to positively impact our 
+                    city and region during our rookie season (2023-2024) 
+                    and beyond, we are extremely excited for our first run.</p>
             </div>
             <div class="right">
                 <img src="https://i.ibb.co/T02DNZs/jacare-branco.png" alt="">
@@ -65,8 +67,9 @@
                 <img src="https://i.ibb.co/98ztnB1/team-photo-1.png" alt="">
             </div>
             <div class="right">
-               <p>A competição enfatiza a colaboração, no qual os participantes
-                 aprendem a resolver problemas, tarefas e comunicação.</p>
+               <p>First competition emphasizes collaboration on which 
+                its participants learn to deal with challenges and 
+                communications in a fast-paced environment.</p>
             </div>
         </section>
 
@@ -75,16 +78,15 @@
                 <img src="https://i.ibb.co/WDVmcfn/first.png" alt="">
             </div>
             <div class="right">
-                <p>A FIRST (For Inspiration and Recognition of Science and Technology)
-                     é uma renomada organização internacional que se dedica a inspirar
-                      jovens a se interessarem por ciência, tecnologia, engenharia,
-                       artes e matemática, conhecidas como as disciplinas STEAM. A FIRST
-                       promove uma série de programas educacionais e competições de
-                      robótica que desafiam estudantes a aplicar seus conhecimentos em
-                      projetos práticos, como a construção de robôs. Os programas da
-                      organização visam não apenas o desenvolvimento de habilidades técnicas,
-                     mas também a promoção de valores como cooperação, trabalho em equipe,
-                      liderança e responsabilidade.</p>
+                <p>FIRST (For Inspiration and Recognition and Technology) 
+                    is a nonprofit organization entitled to develop an 
+                    environment that combines technology, science and competition 
+                    trough young students using many educational programs that 
+                    challenge students to use their knowledge in order to overcome 
+                    practical real-life problems, not only developing technical 
+                    abilities but also values such as cooperation, teamwork, 
+                    leadership and responsibility.
+</p>
             </div>
         </section>
 <!-- Fim do body -->

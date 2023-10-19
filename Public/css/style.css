@@ -203,3 +203,90 @@
 }
     
 }
+
+#who-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#who-section > div.right{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 55px 40px 35px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#who-section > div.right > p {
+    font-size: 18px;
+    align-items: center;
+}
+
+#who-section > div.right > h1 {
+    font-size: 35px;
+    align-items: start;
+}
+
+#who-section > div.left > img{
+    width: 70%;
+    height: fit-content;
+}
+
+#who-section > div.left{
+    width: 40%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#mission-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+#mission-section > div.left{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 55px 40px 35px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#mission-section > div.left > p {
+    font-size: 18px;
+    align-items: center;
+    color: white;
+}
+
+#mission-section > div.left > h1 {
+    font-size: 35px;
+    align-items: start;
+    color: white;
+}
+
+#mission-section > div.right > img{
+    width: 70%;
+    height: fit-content;
+}
+
+#mission-section > div.right{
+    width: 40%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
