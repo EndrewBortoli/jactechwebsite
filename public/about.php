@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - JacTec</title>
+    <title>About - JacTech</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -91,22 +91,40 @@
             </div>
         </section>
 
-        <section id="first">
+        <section id="contact-section">
             <div class="left">
-                <img src="https://i.ibb.co/WDVmcfn/first.png" alt="">
+                <img src="https://i.ibb.co/98ztnB1/team-photo-1.png" alt="">
             </div>
             <div class="right">
-                <p>A FIRST (For Inspiration and Recognition of Science and Technology)
-                     é uma renomada organização internacional que se dedica a inspirar
-                      jovens a se interessarem por ciência, tecnologia, engenharia,
-                       artes e matemática, conhecidas como as disciplinas STEAM. A FIRST
-                       promove uma série de programas educacionais e competições de
-                      robótica que desafiam estudantes a aplicar seus conhecimentos em
-                      projetos práticos, como a construção de robôs. Os programas da
-                      organização visam não apenas o desenvolvimento de habilidades técnicas,
-                     mas também a promoção de valores como cooperação, trabalho em equipe,
-                      liderança e responsabilidade.</p>
-            </div>
+            <form class="form">
+        <div class="flex">
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>Firstname</span>
+        </label>
+
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>Lastname</span>
+        </label>
+    </div>  
+            
+    <label>
+        <input class="input" type="email" placeholder="" required="">
+        <span>Email</span>
+    </label> 
+        
+    <label>
+        <input class="input" type="tel" placeholder="" required="">
+        <span>Telefone</span>
+    </label>
+    <label>
+        <input class="input" type="message" placeholder="" required="">
+        <span>Mensagem</span>
+    </label>
+    <button class="submit">Submit</button>
+</form>
+        </div>
         </section>
 <!-- Fim do body -->
     <footer>
