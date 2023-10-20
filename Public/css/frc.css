@@ -1,0 +1,218 @@
+#first-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #0B6121;
+}
+
+#first-section > div.left{
+    width: 55%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 25px 40px 55px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#first-section > div.left > p {
+    font-size: 18px;
+    align-items: center;
+    color: white;
+}
+
+#first-section > div.left > h1 {
+    font-size: 35px;
+    align-items: start;
+    color: white;
+}
+
+#first-section > div.right > img{
+    width: 80%;
+    height: fit-content;
+}
+
+#first-section > div.right{
+    width: 45%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#frc-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#frc-section > div.left{
+    width: 55%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 25px 40px 55px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#frc-section > div.left > p {
+    font-size: 18px;
+    align-items: center;
+}
+
+#frc-section > div.left > h1 {
+    font-size: 35px;
+    align-items: start;
+}
+
+#frc-section > div.right > img{
+    width: 80%;
+    height: fit-content;
+}
+
+#frc-section > div.right{
+    width: 45%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#steam-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #0B6121;
+}
+
+#steam-section > div.left{
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: justify;
+}
+
+#steam-section > div.right > img {
+    width: 80%;
+    padding: 50px 20px 20px 20px;
+    height: fit-content;
+}
+
+#steam-section > div.left > p {
+    font-size: 18px;
+    align-items: center;
+    color: white;
+}
+
+#steam-section > div.left > h1 {
+    font-size: 35px;
+    align-items: start;
+    color: white;
+}
+
+#steam-section > div.right{
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+@media only screen and (max-width: 1050px) {
+    #first-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #0B6121;
+}
+
+#first-section > div.right {
+    width: 100%;
+    padding: 50px 20px 20px 20px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#first-section > div.left {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 55px 40px 55px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#frc-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#frc-section > div.right {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 50px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#frc-section > div.left {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 55px 40px 55px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#steam-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #0B6121;
+}
+
+#steam-section > div.right {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#steam-section > div.left {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+    justify-content: center;
+    text-align: justify;
+}
+}
