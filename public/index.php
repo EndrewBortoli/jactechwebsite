@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <link rel="stylesheet" href="../public/css/footer.css">
     <link rel="stylesheet" href="../public/css/header.css">
@@ -58,15 +59,19 @@
         </section>
 
         <section id="sesi-senai">
-            <img src="https://i.ibb.co/q5sTTM9/sesi.png" alt="">
-            <img src="https://i.ibb.co/t4Xvcn0/senai.png" alt="">
+            <div class="fade-item esquerda left">
+                <img src="https://i.ibb.co/q5sTTM9/sesi.png" alt="">
+            </div>
+            <div class="fade-item direita right">
+                <img src="https://i.ibb.co/t4Xvcn0/senai.png" alt="">
+            </div>
         </section>
 
         <section id="season">
-            <div class="left">
+            <div class="fade-item esquerda left">
                 <img src="https://i.ibb.co/98ztnB1/team-photo-1.png" alt="">
             </div>
-            <div class="right">
+            <div class="fade-item direita right">
                <p>First competition emphasizes collaboration on which 
                 its participants learn to deal with challenges and 
                 communications in a fast-paced environment.</p>
@@ -74,10 +79,10 @@
         </section>
 
         <section id="first">
-            <div class="left">
+            <div class="fade-item esquerda left">
                 <img src="https://i.ibb.co/WDVmcfn/first.png" alt="">
             </div>
-            <div class="right">
+            <div class="fade-item direita right">
                 <p>FIRST (For Inspiration and Recognition and Technology) 
                     is a nonprofit organization entitled to develop an 
                     environment that combines technology, science and competition 
@@ -122,5 +127,7 @@
             <p>Copyright &copy;2023; Design by <span class="designer">JacTech</span></p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

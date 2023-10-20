@@ -1,18 +1,18 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html{
+    overflow-x: hidden;
+}
+
 #main-banner{
     width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: row;
     background-color: black;
-}
-
-#sesi-senai{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 100px 50px 100px 50px;
 }
 
 #main-banner > div.left{
@@ -23,6 +23,7 @@
     padding: 40px 15px 40px 55px;
     justify-content: center;
     text-align: justify;
+    animation: myLeft 2s ease 0s 1 normal none;
 }
 
 #main-banner > div.left > p {
@@ -36,12 +37,40 @@
     display: flex;
     justify-content: center;
     text-align: justify;
+    animation: myRight 2s ease 0s 1 normal none;
 }
 
 #main-banner > div.right > img{
     width: 60%;
     margin: 40px;
 }
+
+#sesi-senai{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 50px 100px 50px;
+}
+
+#sesi-senai > .left{
+    max-width: 100%;
+}
+
+#sesi-senai > .right{
+    max-width: 100%;
+}
+
+#sesi-senai > .left > img{
+    height: 100%;
+    object-fit: cover;
+}
+#sesi-senai > .right > img{
+    height: 100%;
+    object-fit: cover;
+}
+
 
 #season{
     width: 100%;
@@ -58,6 +87,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 #season > div.right{
@@ -114,6 +144,20 @@
 
 @media only screen and (max-width: 1050px) {
 
+.fade-item {
+    display: none;
+}
+
+.esquerda {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.direita {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
   #main-banner{
     display: flex;
     flex-direction: column-reverse;
@@ -123,6 +167,27 @@
     display: flex;
     gap: 2rem;
     flex-direction: column;
+}
+
+#sesi-senai > .left{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#sesi-senai > .right{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#sesi-senai > .left > img{
+    width: 80%;
+    height: 100%;
+}
+#sesi-senai > .right > img{
+    width: 80%;
+    height: 100%;
 }
 
   #season{
@@ -170,6 +235,7 @@
 
 #first > div.left > img {
     width: 40%;
+    margin: 20px 0px 0px 0px;
 }
 
 #first > div.left {
@@ -202,4 +268,45 @@
     text-align: justify;
 }
     
+}
+
+@keyframes myLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+/* animation: myLeft 2s ease 0s 1 normal none; */
+
+@keyframes myRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+} 
+/* animation: myRight 2s ease 0s 1 normal none; */
+
+.fade-item {
+    opacity: 0; /* Inicialmente, os itens estão escondidos */
+    transition: all 1s; /* Transição suave */
+}
+
+.esquerda {
+    max-width: 100%;
+    transform: translateX(-100px);
+}
+
+.direita {
+    max-width: 100%;
+    transform: translateX(100px);
 }
