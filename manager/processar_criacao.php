@@ -22,8 +22,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO usuarios (nome, email, senha, nivel) VALUES ('$nome', '$email', '$senha', '$nivel')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Novo usuário criado com sucesso.";
-    } else {
+        // Envie um e-mail de boas-vindas
+        $assunto = "Bem-vindo à nossa equipe";
+        $mensagem = "Olá $nome,\n\nBem-vindo à nossa equipe! Seus detalhes de login são:\n\nE-mail: $email\nSenha: $senha\n\nObrigado por se juntar a nós!";
+        $remetente = "jactechsesisenaisp@gmail.com"; // Substitua pelo seu e-mail
+        $headers = "From: $remetente";
+
+        mail($email, $assunto, $mensagem, $headers);
+
+        echo '<script>alert("Usuário cadastrado com sucesso!")</script>';
+        header('Location: ../private/dashboard.php');
+        } else {
         echo "Erro ao criar novo usuário: " . $conn->error;
     }
 
