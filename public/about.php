@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - JacTech</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,52 +49,45 @@
                     WHO WE ARE?
                 </h1>
                 <p>
-                    Vorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam eu turpis molestie, dictum est a, mattis tellus.
-                    Sed dignissim, metus nec fringilla accumsan, risus sem
-                    sollicitudin lacus, ut interdum tellus elit sed risus.
-                    Maecenas eget condimentum velit, sit amet feugiat 
-                    lectus. Class aptent taciti sociosqu ad litora torquent
-                    per conubia nostra, per inceptos himenaeos. Praesent
-                    auctor purus luctus enim egestas, ac scelerisque ante 
-                    pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl,
-                    eu tempor urna. Curabitur vel bibendum lorem. Morbi 
-                    convallis convallis diam sit amet lacinia. Aliquam in
-                    elementum tellus.
+                    JacTech is a team whose mission is to combine technological 
+                    innovation with its commitment to the city of Jacareí and our 
+                    region, constantly seeking to transform our community through 
+                    projects and initiatives. The organization's name alludes to 
+                    its connection to our city and the pursuit of technological 
+                    advancements.
                 </p>
             </div>
         </section>
 
         <section id="mission-section">
-            <div class="left">
+            <div class="fade-item esquerda left">
                 <h1>
                     MISSION
                 </h1>
                 <p>
-                    Vorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam eu turpis molestie, dictum est a, mattis tellus.
-                    Sed dignissim, metus nec fringilla accumsan, risus sem
-                    sollicitudin lacus, ut interdum tellus elit sed risus.
-                    Maecenas eget condimentum velit, sit amet feugiat 
-                    lectus. Class aptent taciti sociosqu ad litora torquent
-                    per conubia nostra, per inceptos himenaeos. Praesent
-                    auctor purus luctus enim egestas, ac scelerisque ante 
-                    pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl,
-                    eu tempor urna. Curabitur vel bibendum lorem. Morbi 
-                    convallis convallis diam sit amet lacinia. Aliquam in
-                    elementum tellus.
+                    Our mission is to bring robotics close to as 
+                    many people as possible, using technology to 
+                    positively impact society. The motto "Much more 
+                    than robots” portrays the greatness related not 
+                    only to the competition but of the entire 
+                    journey, seeking to combine technology through 
+                    social actions!
                 </p>
             </div>
-            <div class="right">
+            <div class="fade-item direita right">
                 <img src="https://i.ibb.co/qjz2QsQ/robologo.png" alt="">
             </div>
         </section>
 
         <section id="contact-section">
-            <div class="left">
+            <div class="fade-item esquerda left">
                 <img src="https://i.ibb.co/98ztnB1/team-photo-1.png" alt="">
             </div>
-            <div class="right">
+            <div class="fade-item direita right">
+               <div class="right">
+                 <h1 style="color: white; font-size: 30px;">
+                    CONTACT US
+                </h1>
             <form class="form">
         <div class="flex">
         <label>
@@ -124,6 +116,7 @@
     </label>
     <button class="submit">Submit</button>
 </form>
+               </div>
         </div>
         </section>
 <!-- Fim do body -->
@@ -159,5 +152,25 @@
             <p>Copyright &copy;2023; Design by <span class="designer">JacTech</span></p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+  $(window).scroll(function () {
+    let windowHeight = $(window).height();
+    let scrollPos = $(window).scrollTop();
+
+    $(".fade-item").each(function () {
+      let itemPos = $(this).offset().top;
+
+      if (scrollPos + windowHeight - 100 > itemPos) {
+        $(this).css({
+          opacity: "1",
+          transform: "translateX(0)",
+        });
+      }
+    });
+  });
+});
+    </script>
 </body>
 </html>

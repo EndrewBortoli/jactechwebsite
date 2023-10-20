@@ -1,3 +1,12 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html{
+    overflow-x: hidden;
+}
+
 #who-section{
     width: 100%;
     height: fit-content;
@@ -14,6 +23,7 @@
     padding: 40px 55px 40px 35px;
     justify-content: center;
     text-align: justify;
+    animation: myRight 2s ease 0s 1 normal none;
 }
 
 #who-section > div.right > p {
@@ -38,6 +48,7 @@
     align-items: center;
     justify-content: center;
     text-align: justify;
+    animation: myLeft 2s ease 0s 1 normal none;
 }
 
 #mission-section{
@@ -120,20 +131,20 @@
     height: fit-content;
 }
 
-#contact-section > div.right{
+#contact-section > div.right {
     width: 40%;
     height: 30rem;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    text-align: justify;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 350px;
+  width: 380px;
   padding: 20px 40px 20px 0px;
   border-radius: 20px;
   position: relative;
@@ -290,7 +301,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 350px;
+    width: 340px;
     padding: 20px 0px 20px 0px;
     border-radius: 20px;
     position: relative;
@@ -316,4 +327,45 @@
     text-align: justify;
 }
 
+}
+
+@keyframes myLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+/* animation: myLeft 2s ease 0s 1 normal none; */
+
+@keyframes myRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+} 
+/* animation: myRight 2s ease 0s 1 normal none; */
+
+.fade-item {
+    opacity: 0; /* Inicialmente, os itens estão escondidos */
+    transition: all 1s; /* Transição suave */
+}
+
+.esquerda {
+    max-width: 100%;
+    transform: translateX(-100px);
+}
+
+.direita {
+    max-width: 100%;
+    transform: translateX(100px);
 }

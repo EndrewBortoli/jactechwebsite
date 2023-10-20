@@ -47,18 +47,15 @@
                     FIRST
                 </h1>
                 <p>
-                    Vorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam eu turpis molestie, dictum est a, mattis tellus.
-                    Sed dignissim, metus nec fringilla accumsan, risus sem
-                    sollicitudin lacus, ut interdum tellus elit sed risus.
-                    Maecenas eget condimentum velit, sit amet feugiat 
-                    lectus. Class aptent taciti sociosqu ad litora torquent
-                    per conubia nostra, per inceptos himenaeos. Praesent
-                    auctor purus luctus enim egestas, ac scelerisque ante 
-                    pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl,
-                    eu tempor urna. Curabitur vel bibendum lorem. Morbi 
-                    convallis convallis diam sit amet lacinia. Aliquam in
-                    elementum tellus.
+                    FIRST is a global non-profit organization that seeks to 
+                    inspire and engage young students into STEAM : Science, 
+                    Technology, Engineering, Arts, and Mathematics, through 
+                    robotics competitions and educational programs.Its primary 
+                    objective is to prepare individuals for demanding situations 
+                    by fostering critical thinking, innovation, and teamwork. 
+                    FIRST provides a range of programs designed for various age 
+                    groups and skill levels, promoting values such as cooperation 
+                    and inclusivity.
                 </p>
             </div>
             <div class="right">
@@ -75,18 +72,17 @@
                     FRC
                 </h1>
                 <p>
-                    Vorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam eu turpis molestie, dictum est a, mattis tellus.
-                    Sed dignissim, metus nec fringilla accumsan, risus sem
-                    sollicitudin lacus, ut interdum tellus elit sed risus.
-                    Maecenas eget condimentum velit, sit amet feugiat 
-                    lectus. Class aptent taciti sociosqu ad litora torquent
-                    per conubia nostra, per inceptos himenaeos. Praesent
-                    auctor purus luctus enim egestas, ac scelerisque ante 
-                    pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl,
-                    eu tempor urna. Curabitur vel bibendum lorem. Morbi 
-                    convallis convallis diam sit amet lacinia. Aliquam in
-                    elementum tellus.
+                    The FIRST Robotics Competition (FRC) is a globally recognized 
+                    competition endorsed by FIRST, where teams of students engage 
+                    in the intricate process of designing, constructing, and 
+                    programming robots to vie in challenging tasks within a 
+                    competitive setting. FRC places a strong emphasis on 
+                    cultivating values that prepare its participants for careers 
+                    in the fields of science and technology. It not only prioritizes 
+                    robot construction but also places significant matter on the 
+                    cultivation of leadership, communication, and problem-solving 
+                    skills. The competition, in this matter, also extends valuable 
+                    academic and professional prospects to its participants.
                 </p>
             </div>
         </section>
@@ -94,21 +90,31 @@
         <section id="steam-section">
             <div class="left">
                 <h1>
-                    FIRST
+                    FIRST <br> PRINCIPLES
                 </h1>
                 <p>
-                    Vorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam eu turpis molestie, dictum est a, mattis tellus.
-                    Sed dignissim, metus nec fringilla accumsan, risus sem
-                    sollicitudin lacus, ut interdum tellus elit sed risus.
-                    Maecenas eget condimentum velit, sit amet feugiat 
-                    lectus. Class aptent taciti sociosqu ad litora torquent
-                    per conubia nostra, per inceptos himenaeos. Praesent
-                    auctor purus luctus enim egestas, ac scelerisque ante 
-                    pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl,
-                    eu tempor urna. Curabitur vel bibendum lorem. Morbi 
-                    convallis convallis diam sit amet lacinia. Aliquam in
-                    elementum tellus.
+                    :STEAM is one of the most important values in FIRST being a interdisciplinary approach to:
+
+                    <br><br>
+                    
+Science: Incorporating principles from biology, chemistry, physics, and Earth sciences. Science emphasizes understanding the natural world through observation, experimentation, and analysis.
+
+<br><br>
+
+Technology: It encompasses the use of tools, machinery, and systems to solve problems and enhance efficiency, with technological innovations being strongly present in all the other components.
+
+<br><br>
+
+Engineering: Engineering involves the design, construction, and maintenance of systems and structures, applying scientific and mathematical principles to create practical solutions.
+
+<br><br>
+
+Arts: The realm of the arts encompasses a wide array of disciplines, including painting, music, dance, theater, graphic design, and more, all of which nurture creativity and foster innovation.
+
+<br><br>
+
+Mathematics: Mathematics serves as the cornerstone, supplying the quantitative and logical instruments essential for effective problem-solving.
+
                 </p>
             </div>
             <div class="right">
