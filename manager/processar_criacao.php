@@ -1,43 +1,41 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Validação de dados de entrada
+    if (!isset($_POST['nome']) || !isset($_POST['email']) || !isset($_POST['senha']) || !isset($_POST['nivel'])) {
+        exit("Dados incompletos. Verifique a entrada e tente novamente.");
+    }
+
+    // Pega os dados do POST
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    $nivel = $_POST['nivel'];
+
     // Conexão com o banco de dados
     $servername = "localhost";
     $username = "root";
     $password = '';
     $dbname = "bortoli_18";
 
+    // Criar conexão
     $conn = new mysqli($servername, $username, $password, $dbname);
 
+    // Verificar conexão
     if ($conn->connect_error) {
-        die("Erro na conexão com o banco de dados: " . $conn->connect_error);
-    }
+        die("Conexão falhou: " . $conn->connect_error);
+    } 
 
-    // Recupere os dados do formulário
-    $nome = $_POST["nome"];
-    $email = $_POST["email"];
-    $senha = $_POST["senha"];
-    $nivel = $_POST["nivel"];
+    // Usar prepared statements para evitar SQL injection
+    $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha, nivel) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("ssss", $nome, $email, $senha, $nivel); // "ssss" indica que todos os 4 parâmetros são strings
 
-    // Consulta SQL para inserir um novo usuário
-    $sql = "INSERT INTO usuarios (nome, email, senha, nivel) VALUES ('$nome', '$email', '$senha', '$nivel')";
-
-    if ($conn->query($sql) === TRUE) {
-        // Envie um e-mail de boas-vindas
-        $assunto = "Bem-vindo à nossa equipe";
-        $mensagem = "Olá $nome,\n\nBem-vindo à nossa equipe! Seus detalhes de login são:\n\nE-mail: $email\nSenha: $senha\n\nObrigado por se juntar a nós!";
-        $remetente = "jactechsesisenaisp@gmail.com"; // Substitua pelo seu e-mail
-        $headers = "From: $remetente";
-
-        mail($email, $assunto, $mensagem, $headers);
-
-        echo '<script>alert("Usuário cadastrado com sucesso!")</script>';
-        header('Location: ../private/dashboard.php');
-        } else {
+    if ($stmt->execute()) {
+        echo '<script>alert("Usuário cadastrado com sucesso!"); window.location.href="../manager/usuarios.php";</script>';
+    } else {
         echo "Erro ao criar novo usuário: " . $conn->error;
     }
 
+    $stmt->close();
     $conn->close();
-} else {
-    echo "Acesso não autorizado.";
 }
 ?>
