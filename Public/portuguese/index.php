@@ -29,11 +29,12 @@
         <li><a href="#" class="hover-underline-animation">HOME</a></li>
         <li><a href="about.php" class="hover-underline-animation">SOBRE</a></li>
         <li><a href="frc.php" class="hover-underline-animation">FRC</a></li>
-        <li><a href="sponsorship.php" class="hover-underline-animation">SPONSORSHIP</a></li>
+        <li><a href="sponsorship.php" class="hover-underline-animation">PATROCÍNIOS</a></li>
+        <li><a href="blog.php" class="hover-underline-animation">BLOG</a></li>
         <li><a href="mentors.php" class="hover-underline-animation">MENTORES</a></li>
         <li><a href="members.php" class="hover-underline-animation">MEMBROS</a></li>
             <div class="switch">
-                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onchange="redirectPageIndex(this)">
                 <label for="language-toggle"></label>
                 <span class="on">PT</span>
                 <span class="off">EN</span>
@@ -104,12 +105,13 @@
         <br><br>
         <div id="footertext">
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">FRC</a></li>
-                <li><a href="">RESOURCES</a></li>
-                <li><a href="">SPONSOURSHIP</a></li>
-                <li><a href="">MEMBERS</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="about.php">SOBRE</a></li>
+            <li><a href="frc.php">FRC</a></li>
+            <li><a href="sponsorship.php">PATROCÍNIOS</a></li>
+            <li><a href="blog.php">BLOG</a></li>
+            <li><a href="mentors.php">MENTORES</a></li>
+            <li><a href="members.php">MEMBROS</a></li>
             </ul>
         </div>
             </div>
@@ -123,7 +125,11 @@
             <p>Copyright &copy;2023; Design by <span class="designer">JacTech</span></p>
         </div>
     </footer>
+
+    <!-- Fim do Body -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <script src="../js/movepage-pt.js"></script>
+    <script src="../js/scroll.js"></script>
 </body>
 </html>
