@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <link rel="stylesheet" href="../public/css/footer.css">
-    <link rel="stylesheet" href="../public/css/header.css">
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
     
 </head>
 <body>
@@ -24,19 +24,19 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo"><a href=""><img src="../Image/jactech.svg" alt=""></a></label>
+      <label class="logo"><a href="#"><img src="../../Image/jactech.svg" alt=""></a></label>
       <ul>
         <li><a href="#" class="hover-underline-animation">HOME</a></li>
-        <li><a href="#" class="hover-underline-animation">ABOUT</a></li>
-        <li><a href="#" class="hover-underline-animation">FRC</a></li>
-        <li><a href="#" class="hover-underline-animation">SPONSORSHIP</a></li>
-        <li><a href="#" class="hover-underline-animation">MENTORS</a></li>
-        <li><a href="#" class="hover-underline-animation">MEMBERS</a></li>
+        <li><a href="about.php" class="hover-underline-animation">ABOUT</a></li>
+        <li><a href="frc.php" class="hover-underline-animation">FRC</a></li>
+        <li><a href="sponsorship.php" class="hover-underline-animation">SPONSORSHIP</a></li>
+        <li><a href="mentors.php" class="hover-underline-animation">MENTORS</a></li>
+        <li><a href="members.php" class="hover-underline-animation">MEMBERS</a></li>
             <div class="switch">
                 <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
                 <label for="language-toggle"></label>
-                <span class="on">PT</span>
-                <span class="off">EN</span>
+                <span class="on">EN</span>
+                <span class="off">PT</span>
   	        </div>
       </ul>
     </nav>
@@ -72,7 +72,7 @@
                 <img src="https://i.ibb.co/98ztnB1/team-photo-1.png" alt="">
             </div>
             <div class="fade-item direita right">
-               <p>First competition emphasizes collaboration on which 
+               <p>FIRST Competition emphasizes collaboration on which 
                 its participants learn to deal with challenges and 
                 communications in a fast-paced environment.</p>
             </div>

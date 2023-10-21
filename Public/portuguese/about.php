@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - JacTech</title>
+    <title>Sobre - JacTech</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../public/css/footer.css">
-    <link rel="stylesheet" href="../public/css/header.css">
-    <link rel="stylesheet" href="../public/css/about.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/about.css">
     
 </head>
 <body>
@@ -22,14 +22,14 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo"><a href=""><img src="../Image/jactech.svg" alt=""></a></label>
+      <label class="logo"><a href="index.php"><img src="../../Image/jactech.svg" alt=""></a></label>
       <ul>
-        <li><a href="#" class="hover-underline-animation">HOME</a></li>
-        <li><a href="#" class="hover-underline-animation">ABOUT</a></li>
-        <li><a href="#" class="hover-underline-animation">FRC</a></li>
-        <li><a href="#" class="hover-underline-animation">SPONSORSHIP</a></li>
-        <li><a href="#" class="hover-underline-animation">MENTORS</a></li>
-        <li><a href="#" class="hover-underline-animation">MEMBERS</a></li>
+        <li><a href="index.php" class="hover-underline-animation">HOME</a></li>
+        <li><a href="#" class="hover-underline-animation">SOBRE</a></li>
+        <li><a href="frc.php" class="hover-underline-animation">FRC</a></li>
+        <li><a href="sponsorship.php" class="hover-underline-animation">SPONSORSHIP</a></li>
+        <li><a href="mentors.php" class="hover-underline-animation">MENTORES</a></li>
+        <li><a href="members.php" class="hover-underline-animation">MEMBROS</a></li>
             <div class="switch">
                 <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
                 <label for="language-toggle"></label>
@@ -46,15 +46,12 @@
             </div>
             <div class="right">
                 <h1>
-                    WHO WE ARE?
+                QUEM NÓS SOMOS?
                 </h1>
                 <p>
-                    JacTech is a team whose mission is to combine technological 
-                    innovation with its commitment to the city of Jacareí and our 
-                    region, constantly seeking to transform our community through 
-                    projects and initiatives. The organization's name alludes to 
-                    its connection to our city and the pursuit of technological 
-                    advancements.
+                A JacTech é uma equipe que tem como missão unir a inovação tecnológica ao seu compromisso com a cidade de Jacareí e 
+                região, buscando constantemente transformar a comunidade por meio de projetos e iniciativas. O nome da organização 
+                faz alusão tanto a ligação com a nossa cidade quanto a busca por avanços na tecnologia.
                 </p>
             </div>
         </section>
@@ -62,16 +59,12 @@
         <section id="mission-section">
             <div class="fade-item esquerda left">
                 <h1>
-                    MISSION
+                    MISSÃO
                 </h1>
                 <p>
-                    Our mission is to bring robotics close to as 
-                    many people as possible, using technology to 
-                    positively impact society. The motto "Much more 
-                    than robots” portrays the greatness related not 
-                    only to the competition but of the entire 
-                    journey, seeking to combine technology through 
-                    social actions!
+                A nossa missão é levar a robótica para o maior número de pessoas, utilizando a tecnologia para impactar positivamente
+                 a sociedade. O lema "Muito mais que robôs" retrata a grandiosidade não só da competição, mas de todo o trajeto, 
+                 buscando influenciar e demonstrar a tecnologia e ações sociais!
                 </p>
             </div>
             <div class="fade-item direita right">
