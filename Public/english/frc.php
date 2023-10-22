@@ -7,7 +7,7 @@
     <title>FRC - JACTECH</title>
     <meta name="description" content="What is the FRC? Understand all this!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, robotics, frc, what is frc, competition, tecnology">
+    <meta name="keywords" content="Jactech, team, robotics, FRC, what is frc, competition, tecnology, FISRT">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is our blog that have some notices for you!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, robotics, blog, information, blog, know">
+    <meta name="keywords" content="Jactech, team, robotics, blog, information, blog, know, FRC, FIRST, competition">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
     <title>BLOG - JACTECH</title>

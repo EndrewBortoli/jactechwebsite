@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="this is our sponsorships, thank you for your preference!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, robotic, alies, sponsorship, company">
+    <meta name="keywords" content="Jactech, team, robotic, alies, sponsorship, company, FRC, FIRST, competition">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
     <title>Sponsorship</title>

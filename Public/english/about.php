@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Get to know the team and the values ​​we propose to the world!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, robotics, innovation, robots ,robot competition, alligator">
+    <meta name="keywords" content="Jactech, team, robotics, innovation, robots ,robot competition, alligator, FRC, FIRST">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
     <title>ABOUT - JACTECH</title>

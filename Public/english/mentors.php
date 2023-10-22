@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="this is our mentors and coaches!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, home, robotic, coaches, coach, mentor, mentors, peoples">
+    <meta name="keywords" content="Jactech, team, home, robotic, coaches, coach, mentor, mentors, peoples, FRC, FIRST, competition, teacher">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
     <title>MENTORS - JACTECH</title>

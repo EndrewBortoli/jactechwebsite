@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A new team! So much dreams!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, home, robotic">
+    <meta name="keywords" content="Jactech, team, home, robotic, FRC, FIRST, competition, information">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
     <title>HOME - JACTECH</title>

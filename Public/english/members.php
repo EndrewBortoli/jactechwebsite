@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A portal for the members of the team use!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, members, portal, control, login">
+    <meta name="keywords" content="Jactech, team, members, portal, control, login, FRC, FIRST, competition">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
     <title>MEMBERS - JACTECH</title>
