@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A new team! So much dreams!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, home, robotic">
+    <meta name="keywords" content="Jactech, team, home, robotic, FRC, FIRST, competition, information">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
-    <title>Home</title>
+    <title>HOME - JACTECH</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>

@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is our blog that have some notices for you!">
     <meta name="author" content="Jactech">
-    <meta name="keywords" content="Jactech, team, robotics, blog, information, blog, know">
+    <meta name="keywords" content="Jactech, team, robotics, blog, information, blog, know, FRC, FIRST, competition">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
-    <title>Blog</title>
+    <title>BLOG - JACTECH</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
