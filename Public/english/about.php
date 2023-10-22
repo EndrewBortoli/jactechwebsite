@@ -9,7 +9,7 @@
     <meta name="keywords" content="Jactech, team, robotics, innovation, robots ,robot competition, alligator">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
-    <title>About</title>
+    <title>ABOUT - JACTECH</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,11 +114,11 @@
         
     <label>
         <input class="input" type="tel" placeholder="" required="">
-        <span>Telefone</span>
+        <span>Telephone</span>
     </label>
     <label>
         <input class="input" type="message" placeholder="" required="">
-        <span>Mensagem</span>
+        <span>Message</span>
     </label>
     <button class="submit">Submit</button>
 </form>
@@ -159,8 +159,6 @@
             <p>Copyright &copy;2023; Design by <span class="designer">JacTech</span></p>
         </div>
     </footer>
-
-    <!-- Fim do Body -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/movepage-en.js"></script>

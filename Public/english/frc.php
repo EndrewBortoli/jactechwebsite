@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRC</title>
+    <title>FRC - JACTECH</title>
     <meta name="description" content="What is the FRC? Understand all this!">
     <meta name="author" content="Jactech">
     <meta name="keywords" content="Jactech, team, robotics, frc, what is frc, competition, tecnology">
     <meta name = "robots" content = "index, follow">
     <link rel="shortcut icon" href="https://i.ibb.co/zh36pn3/logo.png">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,10 +69,10 @@
         </section>
 
         <section id="frc-section">
-            <div class="right">
+            <div class="fade-item esquerda left">
                 <img src="https://i.ibb.co/fDr9j5r/socialfirst.png" alt="">
             </div>
-            <div class="left">
+            <div class="fade-item direita right">
                 <h1>
                     FRC
                 </h1>
@@ -94,36 +93,37 @@
         </section>
 
         <section id="steam-section">
-            <div class="left">
+            <div class="fade-item esquerda left">
                 <h1>
-                    FIRST <br> PRINCIPLES
+                    FIRST PRINCIPLES
                 </h1>
+                <br>
                 <p>
-                    :STEAM is one of the most important values in FIRST being a interdisciplinary approach to:
+                    STEAM is one of the most important values in FIRST being a interdisciplinary approach to:
 
                     <br><br>
                     
-Science: Incorporating principles from biology, chemistry, physics, and Earth sciences. Science emphasizes understanding the natural world through observation, experimentation, and analysis.
+<b>Science:</b> Incorporating principles from biology, chemistry, physics, and Earth sciences. Science emphasizes understanding the natural world through observation, experimentation, and analysis.
 
 <br><br>
 
-Technology: It encompasses the use of tools, machinery, and systems to solve problems and enhance efficiency, with technological innovations being strongly present in all the other components.
+<b>Technology:</b> It encompasses the use of tools, machinery, and systems to solve problems and enhance efficiency, with technological innovations being strongly present in all the other components.
 
 <br><br>
 
-Engineering: Engineering involves the design, construction, and maintenance of systems and structures, applying scientific and mathematical principles to create practical solutions.
+<b>Engineering:</b> Engineering involves the design, construction, and maintenance of systems and structures, applying scientific and mathematical principles to create practical solutions.
 
 <br><br>
 
-Arts: The realm of the arts encompasses a wide array of disciplines, including painting, music, dance, theater, graphic design, and more, all of which nurture creativity and foster innovation.
+<b>Arts:</b> The realm of the arts encompasses a wide array of disciplines, including painting, music, dance, theater, graphic design, and more, all of which nurture creativity and foster innovation.
 
 <br><br>
 
-Mathematics: Mathematics serves as the cornerstone, supplying the quantitative and logical instruments essential for effective problem-solving.
+<b>Mathematics:</b> Mathematics serves as the cornerstone, supplying the quantitative and logical instruments essential for effective problem-solving.
 
                 </p>
             </div>
-            <div class="right">
+            <div class="fade-item direita right">
                 <img src="https://i.ibb.co/njjZ6Zh/steam.png" alt="">
             </div>
         </section>
@@ -164,6 +164,7 @@ Mathematics: Mathematics serves as the cornerstone, supplying the quantitative a
 
     <!-- Fim do Body -->
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/movepage-en.js"></script>
     <script src="../js/scroll.js"></script>
 
