@@ -98,12 +98,12 @@
         <div class="flex">
         <label>
             <input class="input" type="text" placeholder="" name="assunto" required="">
-            <span>Assunto</span>
+            <span>Title</span>
         </label>
 
         <label>
             <input class="input" type="text" placeholder="" name="nome" required="">
-            <span>Nome</span>
+            <span>Name</span>
         </label>
     </div>  
             
