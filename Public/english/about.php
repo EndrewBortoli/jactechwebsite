@@ -94,30 +94,30 @@
                  <h1 style="color: white; font-size: 30px;">
                     CONTACT US
                 </h1>
-            <form class="form">
+            <form class="form" method="POST" action="../../Model/formail.php">
         <div class="flex">
         <label>
-            <input class="input" type="text" placeholder="" required="">
-            <span>Firstname</span>
+            <input class="input" type="text" placeholder="" name="assunto" required="">
+            <span>Assunto</span>
         </label>
 
         <label>
-            <input class="input" type="text" placeholder="" required="">
-            <span>Lastname</span>
+            <input class="input" type="text" placeholder="" name="nome" required="">
+            <span>Nome</span>
         </label>
     </div>  
             
     <label>
-        <input class="input" type="email" placeholder="" required="">
+        <input class="input" type="email" placeholder="" name="email" required="">
         <span>Email</span>
     </label> 
         
     <label>
-        <input class="input" type="tel" placeholder="" required="">
+        <input class="input" type="tel" placeholder="" name="telefone" required="">
         <span>Telephone</span>
     </label>
     <label>
-        <input class="input" type="message" placeholder="" required="">
+        <input class="input" type="message" placeholder="" name="mensagem" required="">
         <span>Message</span>
     </label>
     <button class="submit">Submit</button>
