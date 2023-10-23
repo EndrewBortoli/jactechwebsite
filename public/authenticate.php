@@ -26,6 +26,6 @@ if ($usersfound == 1) { // Verifique se há um único usuário correspondente
     }
 } else {
     echo '<script>alert("Dados Incorretos")</script>';
-    echo '<script>window.location="members.php"</script>';
+    echo '<script>window.location="english/members.php"</script>';
 }
 ?>
