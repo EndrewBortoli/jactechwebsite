@@ -183,6 +183,7 @@ body{
     padding: 40px 55px 40px 55px;
     justify-content: center;
     text-align: justify;
+    flex-direction: column;
 }
 
 #frc-section > div.right {
@@ -217,7 +218,13 @@ body{
 #steam-section > div.right > img {
     width: 100%;
     padding: 40px 40px 0px 40px;
-    height: fit-content;
+    height: 232px;
+}
+
+#frc-section > div.right > img{
+    width: 100%;
+    padding: 40px 40px 0px 40px;
+    height: 232px;
 }
 
 #steam-section > div.left {

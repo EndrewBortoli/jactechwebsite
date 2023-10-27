@@ -114,7 +114,7 @@ body{
 #steam-section > div.right > img {
     width: 100%;
     padding: 20px 40px 20px 20px;
-    height: fit-content;
+    height: 232px;
 }
 
 #steam-section > div.left > p {
@@ -156,6 +156,11 @@ body{
     text-align: justify;
 }
 
+#first-section > div.right > img {
+    width: 80%;
+    height: 100px;
+}
+
 #first-section > div.left {
     width: 100%;
     height: fit-content;
@@ -182,6 +187,11 @@ body{
     padding: 40px 55px 40px 55px;
     justify-content: center;
     text-align: justify;
+}
+
+#frc-section > div.left > img {
+    width: 80%;
+    height: 140px;
 }
 
 #frc-section > div.right {
@@ -216,7 +226,7 @@ body{
 #steam-section > div.right > img {
     width: 100%;
     padding: 40px 40px 0px 40px;
-    height: fit-content;
+    height: 232px;
 }
 
 #steam-section > div.left {

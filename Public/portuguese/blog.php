@@ -54,10 +54,10 @@
             <div class="footerDiv1">
                 <div class="socialIcons">
             <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-tiktok"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/jactech_9458?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@jactech_9458?_t=8grYv7dUvkT&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://youtube.com/@Jactech_9458?si=HTiom5QgQUoRg1_-"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/sesi-senai-jactech-881580297/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <br><br>
         <div id="footertext">
@@ -68,7 +68,7 @@
             <li><a href="sponsorship.php">PATROCÍNIOS</a></li>
             <!-- <li><a href="#">BLOG</a></li>
             <li><a href="mentors.php">MENTORES</a></li> -->
-            <li><a href="members.php">MEMBROS</a></li>
+            <!-- <li><a href="members.php">MEMBROS</a></li> -->
             </ul>
         </div>
             </div>
