@@ -132,7 +132,7 @@
         <div class="footerContainer">
             <div class="footerDiv1">
                 <div class="socialIcons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-tiktok"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
@@ -145,8 +145,8 @@
             <li><a href="about.php">ABOUT</a></li>
             <li><a href="#">FRC</a></li>
             <li><a href="sponsorship.php">SPONSORSHIP</a></li>
-            <li><a href="blog.php">BLOG</a></li>
-            <li><a href="mentors.php">MENTORS</a></li>
+            <!-- <li><a href="blog.php">BLOG</a></li>
+            <li><a href="mentors.php">MENTORS</a></li> -->
             <li><a href="members.php">MEMBERS</a></li>
             </ul>
         </div>

@@ -118,8 +118,8 @@
             <li><a href="about.php">ABOUT</a></li>
             <li><a href="frc.php">FRC</a></li>
             <li><a href="sponsorship.php">SPONSORSHIP</a></li>
-            <li><a href="blog.php">BLOG</a></li>
-            <li><a href="mentors.php">MENTORS</a></li>
+            <!-- <li><a href="blog.php">BLOG</a></li>
+            <li><a href="mentors.php">MENTORS</a></li> -->
             <li><a href="members.php">MEMBERS</a></li>
             </ul>
         </div>

@@ -241,7 +241,7 @@ html{
 #who-section > div.left > img {
     width: 60%;
     padding: 30px 20px 20px 20px;
-    height: fit-content;
+    height: 232px;
 }
 
 #who-section > div.right {
@@ -275,7 +275,7 @@ html{
 #mission-section > div.right > img {
     width: 55%;
     padding: 70px 20px 20px 20px;
-    height: fit-content;
+    height: 272px;
 }
 
 #contact-section {
