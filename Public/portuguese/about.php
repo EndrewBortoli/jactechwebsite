@@ -33,8 +33,8 @@
         <li><a href="#" class="hover-underline-animation">SOBRE</a></li>
         <li><a href="frc.php" class="hover-underline-animation">FRC</a></li>
         <li><a href="sponsorship.php" class="hover-underline-animation">PATROCÍNIOS</a></li>
-        <li><a href="blog.php" class="hover-underline-animation">BLOG</a></li>
-        <li><a href="mentors.php" class="hover-underline-animation">MENTORES</a></li>
+        <!-- <li><a href="blog.php" class="hover-underline-animation">BLOG</a></li>
+        <li><a href="mentors.php" class="hover-underline-animation">MENTORES</a></li> -->
         <li><a href="members.php" class="hover-underline-animation">MEMBROS</a></li>
             <div class="switch">
                 <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onchange="redirectPageAbout(this)">
